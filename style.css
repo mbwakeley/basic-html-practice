@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pets {
+    border: 5px solid black;
+    width: 300px;
+
+}
+.cities {
+    border: 1px solid black;
+}
+ul{
+    list-style: none;
+}
+td{
+    font-size: 50px;
+    font-family: Comic Sans MS;
+    border-left: 5px solid #000;
+    border-right: 5px solid #000
+}
+th{
+    font-size: 50px;
+    font-family: Comic Sans MS;
+    text-align: left;
+    border-left: 5px solid #000;
+    border-right: 5px solid #000
+}
+.table{
+    table-layout: auto;
+    width: 90%; 
+}
+table {
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+h1{
+    font-family: Comic Sans MS;
+    font-size: 60px;
+    margin-left: 5%;
+}
+.light-gray-row {
+    background-color: lightgray;
+}
+.gray-row{
+    background-color: gray
+}

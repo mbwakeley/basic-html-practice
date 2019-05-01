@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel ="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 id="the-heading-one">Your Information </h1>
+    <form id="information-form" onsubmit="submitMethod()">
+    <p>
+        <label for="Name">
+        name
+        <input id="name-field" type="text">
+        </label>
+   </p>
+    <p>
+        <label for="email">
+        Email
+        <input id="email-field" type="text">
+        </label>
+    </p>
+    <p>
+        <label for="phone-number">
+        Phone Number
+        <input id="phone-field" type="text">
+        </label>
+    </p>
+    <p>
+        <input type="checkbox" name="from" value="from">From San Francisco
+        <input type="checkbox" name="not-from" value="not from">Not From San Francisco
+    </p>
+    <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
